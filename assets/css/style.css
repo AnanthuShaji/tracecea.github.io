@@ -175,3 +175,20 @@ main {
 	background-color: #fff;
 	z-index: 999999;
 }
+
+/*TRACE-LOGO ROTATING ANIMATION*/
+
+
+#traceRotator img {
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out; 
+     -o-transition: all 1s ease-in-out; 
+     -ms-transition: all 1s ease-in-out; 
+}
+ 
+#traceRotator img:hover { 
+     -webkit-transform: rotate(360deg); 
+     -moz-transform: rotate(360deg); 
+     -o-transform: rotate(360deg);
+     -ms-transform: rotate(360deg); 
+}
